@@ -1,70 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="cat.jpg">
-    <style>
-        * {
-            color-scheme: light dark;
-        }
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="cat.jpg">
+	<style>
+		* {
+			color-scheme: light dark;
+		}
 
-        body {
-            display: flex;
-            min-height: 100vh;
-            margin: 0;
-            justify-content: center;
-            align-items: center;
-        }
+		html {
+			display: flex;
+			min-height: 100vh;
+			margin: 0;
+			justify-content: center;
+			align-items: center;
+		}
 
-        main {
-            width: 240px;
-            text-align: center;
-            margin: 16px;
-        }
+		body {
+			width: 240px;
+			text-align: center;
+			margin: 16px;
+		}
 
-        .cat {
-            width: 240px;
-            height: 240px;
-            border-radius: 8px;
-        }
+		.cat {
+			width: 240px;
+			height: 240px;
+			border-radius: 8px;
+		}
 
-        .oiiai {
-            font-size: 28px;
-            margin-top: 10px;
-        }
+		.oiiai {
+			font-size: 28px;
+			margin-top: 10px;
+			margin-bottom: 0;
+		}
 
-        ._51121 {
-            font-size: 20px;
-        }
+		._51121 {
+			font-size: 20px;
+			margin-top: 14px;
+		}
 
-        .src {
-            color: gray;
-            font-size: 14px;
-        }
+		.src {
+			margin-top: 32px;
+		}
 
-        .none {
-            height: 8px;
-        }
+		.src>a {
+			color: gray;
+			font-size: 14px;
+		}
 
-        @media (prefers-color-scheme: light) {
-            html {
-                /* Fix QQ */
-                background-color: white;
-            }
-        }
-    </style>
+		.none {
+			height: 8px;
+		}
+
+		@media (prefers-color-scheme: light) {
+			html {
+				/* Fix QQ dark mode */
+				background-color: white;
+			}
+		}
+	</style>
 </head>
 
 <body>
-    <main>
-        <img src="cat.jpg" class="cat">
-        <p class="oiiai">oiiaioooooiai</p>
-        <p class="_51121">511212 511121</p>
-        <p class="none"></p>
-        <p><a class="src" href="https://github.com/bddjr/511212.xyz">src</a></p>
-    </main>
+	<img src="cat.jpg" class="cat">
+	<p class="oiiai">oiiaioooooiai</p>
+	<p class="_51121">511212 511121</p>
+	<p class="src"><a href="https://github.com/bddjr/511212.xyz">src</a></p>
 </body>
 
 </html>
